@@ -1,0 +1,151 @@
+body {
+    background: #000;
+}
+
+/*Large Clock Page Container*/
+.page-clock-container {
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    width: 100%;
+}
+
+/*Large Clock Page Animation*/
+#PageClock_Date,
+.pageclock-info,
+#PageClock_Time {
+    margin: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+/*Large Clock Page Date*/
+#PageClock_Date {
+    color: #6b6b6b;
+    font-family: cursive;
+    font-size: 36px;
+    text-shadow: 0 2px 2px #000;
+}
+
+/*Large Clock Page Info*/
+.pageclock-info {
+    color: #454748;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/*Large Clock Page Info Credit*/
+.pageclock-info a {
+    color: #b8c1e6;
+    text-decoration: none;
+}
+
+/*Large Clock Page Time*/
+#PageClock_Time {
+    color: #6b6b6b;
+    font-size: 190px;
+    font-weight: 700;
+    text-align: center;
+    font-family: cursive;
+    text-shadow: 0 5px 3px #000;
+}
+
+#PageClock_Date:hover,
+.pageclock-info:hover,
+#PageClock_Time:hover {
+    color: #fff;
+}
+
+@media screen and (max-width: 1190px) {
+
+    /*Large Clock Page Date*/
+    #PageClock_Date {
+        font-size: 30px;
+    }
+
+    /*Large Clock Page Time*/
+    #PageClock_Time {
+        font-size: 140px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    /*Large Clock Page Date*/
+    #PageClock_Date {
+        font-size: 28px;
+    }
+
+    /*Large Clock Page Info*/
+    .pageclock-info {
+        font-size: 11px;
+    }
+
+    /*Large Clock Page Time*/
+    #PageClock_Time {
+        font-size: 115px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    /*Large Clock Page Date*/
+    #PageClock_Date {
+        font-size: 26px;
+    }
+
+    /*Large Clock Page Info*/
+    .pageclock-info {
+        font-size: 0;
+    }
+
+    /*Large Clock Page Time*/
+    #PageClock_Time {
+        font-size: 85px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    /*Large Clock Page Date*/
+    #PageClock_Date {
+        font-size: 20px;
+    }
+
+    /*Large Clock Page Time*/
+    #PageClock_Time {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    /*Large Clock Page Date*/
+    #PageClock_Date {
+        font-size: 15px;
+    }
+
+    /*Large Clock Page Time*/
+    #PageClock_Time {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 260px) {
+
+    /*Large Clock Page Date*/
+    #PageClock_Date {
+        font-size: 10px;
+    }
+
+    /*Large Clock Page Time*/
+    #PageClock_Time {
+        font-size: 25px;
+    }
+}
